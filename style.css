@@ -1,11 +1,17 @@
 .header {
     display: flex;
+    background: #1F2937;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 ul {
     list-style: none;
+}
+
+.logo {
+    color: #E5E7EB;
 }
