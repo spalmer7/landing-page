@@ -42,7 +42,7 @@ ul {
 .hero {
     display: flex;
     background: #1F2937;
-    height: 300px;
+    height: 500px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,9 +53,9 @@ ul {
     display: flex;
     color: #F9FAF8;
     font-size: 48px;
-    margin-left: 180px;
     margin-bottom: 8px;
     flex-wrap: wrap;
+    width: 600px;
 }
 
 h2 {
@@ -71,8 +71,8 @@ p {
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 180px;
     margin-bottom: 8px;
+    width: 400px;
     
 }
 
@@ -87,7 +87,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    margin-left: 180px;
+ 
 }
 
 .hero-image {
