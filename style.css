@@ -42,18 +42,28 @@ ul {
 .hero {
     display: flex;
     background: #1F2937;
-    flex-direction: column;
     height: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .hero-title {
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .hero-paragraph {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-button {
     color: #F9FAF8;
+}
+
+.hero-image {
+    margin-left: 10px;
 }
