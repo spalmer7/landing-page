@@ -45,7 +45,6 @@ ul {
     height: 300px;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     
 }
@@ -54,7 +53,7 @@ ul {
     display: flex;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    
 }
 
 h2 {
@@ -68,12 +67,22 @@ p {
 .hero-paragraph {
     color: #E5E7EB;
     font-size: 18px;
+    display: flex;
     flex-wrap: wrap;
+    
 }
 
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .hero-image {
