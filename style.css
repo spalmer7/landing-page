@@ -38,3 +38,22 @@ ul {
 }
 
 /* Hero Section */
+
+.hero {
+    display: flex;
+    background: #1F2937;
+    flex-direction: column;
+    height: 300px;
+}
+
+.hero-title {
+    color: #F9FAF8
+}
+
+.hero-paragraph {
+    color: #E5E7EB;
+}
+
+.hero-button {
+    color: #F9FAF8;
+}
