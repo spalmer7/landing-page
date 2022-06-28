@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* Header Section */
+
 .header {
     display: flex;
     background: #1F2937;
@@ -34,3 +36,5 @@ ul {
     padding: 16px;
     margin: 8px;
 }
+
+/* Hero Section */
