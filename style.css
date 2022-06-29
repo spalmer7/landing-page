@@ -95,5 +95,24 @@ button {
     display: flex;
     margin-left: 180px;
     flex-basis: 40%;
-    
+}
+
+/* Information Section */
+
+.info {
+    display: flex;
+    height: 500px;
+    text-align: center;
+}
+
+ .info img {
+    width: 160px;
+    height: 160px;
+}
+
+.info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
 }
