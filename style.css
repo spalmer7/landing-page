@@ -114,13 +114,15 @@ button {
     display: flex;
     justify-content: center;
     height: 40px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
  .info img {
     width: 160px;
     height: 160px;
     display: flex;
+    border: #3882F6 5px solid;
+    border-radius: 5px;
     
 }
 
@@ -154,7 +156,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
