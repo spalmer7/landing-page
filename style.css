@@ -76,7 +76,7 @@ p {
     margin-left: 220px;
 }
 
-button {
+.hero button {
     color: #F9FAF8;
     background-color: #3882F6;
     font-size: 18px;
@@ -182,4 +182,56 @@ button {
     color: #1F2937;
     display: flex;
     padding-left: 20em;
+}
+
+/* Call to Action Section */
+
+.call {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-full {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-right: 48px;
+}
+
+.call-body {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.call-sign {
+    font-size: 14px;
+    color: white;
+}
+
+.call button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white 2px solid;
+    margin-left: 36px;
 }
