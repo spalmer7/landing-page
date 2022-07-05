@@ -148,5 +148,31 @@ button {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
 
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 12em;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    padding-left: 20em;
 }
