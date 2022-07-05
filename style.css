@@ -96,6 +96,10 @@ button {
     flex-basis: 40%;
 }
 
+.hero img {
+    width: 500px;
+    height: 250px;
+}
 /* Information Section */
 
 .info {
