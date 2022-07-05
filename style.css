@@ -173,6 +173,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     padding: 24px 12em;
+    color: #1F2937;
 }
 
 .quote-source {
